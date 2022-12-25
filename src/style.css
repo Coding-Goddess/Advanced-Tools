@@ -26,7 +26,13 @@
   h1 {
     font-size: 96px;
   }
-  
+  @media (max-width: 900px) {
+    h1{
+      font-size: 48px;}
+      h2{
+        font-size: 36px;
+  }
+  }
   h2 {
     font-size: 48px;
   }
